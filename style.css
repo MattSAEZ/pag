@@ -1,0 +1,57 @@
+ body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+ }
+
+
+ header {
+    display: flex;     
+   justify-content: space-between;
+   align-items: center;
+   background-color: #faebd7;
+   min-height: 70px;
+   
+
+ }
+
+ a { 
+    text-decoration: none;
+    color: black;
+ }
+
+.QUESO1{
+   display: flex;
+   align-items: center;
+}
+
+ .QUESO1 img {
+    width: 100px;
+    height: 100px;
+ }
+
+  nav {
+    flex-wrap: nowrap;
+  }
+
+ nav a {
+    font-weight: 600;
+    padding-right:10px;
+
+ }
+
+ nav a:hover {
+   color: darkgoldenrod;
+ }
+
+ @media (max-width: 599px) {
+      header {
+         flex-direction: column;
+      }
+    nav {
+         padding: 10px 0px;
+    }
+   
+ }
